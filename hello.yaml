@@ -1,0 +1,9 @@
+httpd:
+  server_name: my_server
+  document_root: /var/www/html
+  listen_port: 80
+
+application:
+  name: hello_world
+  index_file: index.html
+  source_directory: /dir/documentos/hello
